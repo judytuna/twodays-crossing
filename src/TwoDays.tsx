@@ -38,7 +38,7 @@ export default function TwoDays() {
                 }
               </p>
               <p className="seasonal-hour">
-                It is the {hourOf.longName}.
+                It is the {hourOf.longName} in {hourOf.season}.
               </p>
             </aside>
           </header>
