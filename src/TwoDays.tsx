@@ -16,7 +16,7 @@ export default function TwoDays() {
   let [hourOf] = useHourOf();
 
   return (
-    <div id={"twodays-app"} className={hourOf.season}>
+    <div id={"twodays-app"} class={hourOf.season}>
       {currentWorkspace ? (
         <>
           <header>
