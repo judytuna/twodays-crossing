@@ -240,3 +240,30 @@ header aside {
   font-size: 0.8em;
   align-self: baseline;
 }
+
+.winter {
+  --main: white;
+  --text: gray;
+}
+
+.spring {
+  --main: lightgreen;
+  --text: green;
+}
+
+.summer {
+  --main: yellow;
+  --text: orange;
+}
+
+.fall {
+  --main: var(--main-colour);
+  --text: var(--other-colour);
+}
+
+#twodays-app {
+    color: var(--text);
+    background: var(--main);
+    transition-property: color, background;
+    transition-duration: 5s,
+}
